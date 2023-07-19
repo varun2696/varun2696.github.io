@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
@@ -20,13 +20,20 @@ const ProjectsCard = ({ title, des, src, github, deployedLink }) => {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a className='project-github-link' href={github} target="_blank">
+                <a
+                  className="project-github-link"
+                  href={github}
+                  target="_blank"
+                >
                   <BsGithub />
                 </a>
-
               </span>
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a className='project-deployed-link' href={deployedLink} target="_blank">
+                <a
+                  className="project-deployed-link"
+                  href={deployedLink}
+                  target="_blank"
+                >
                   <FaGlobe />
                 </a>
               </span>
@@ -35,11 +42,16 @@ const ProjectsCard = ({ title, des, src, github, deployedLink }) => {
           <p className="project-description text-sm tracking-wide mt-3 mb-3 hover:text-gray-100 duration-300">
             {des}
           </p>
-          <p className='project-tech-stack'>Tech-stack : <span>Javascript | CSS | HTML | React | Redx | Ckakra Ui</span></p>
+          <p>
+            Tech-stack :{" "}
+            <span className="project-tech-stack">
+              Javascript | CSS | HTML | React | Redx | Ckakra Ui
+            </span>
+          </p>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ProjectsCard
+export default ProjectsCard;

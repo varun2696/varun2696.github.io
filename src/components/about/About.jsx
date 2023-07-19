@@ -6,7 +6,7 @@ export const About = () => {
       id="about"
       className="w-[80%] m-auto justify-center items-center text-center"
     >
-      <h1 className="flex justify-center items-center text-center p-[5%] text-4xl md:text-5xl text-gray-300 font-bold capitalize">
+      <h1 className="about section flex justify-center items-center text-center p-[5%] text-4xl md:text-5xl text-gray-300 font-bold capitalize">
         ABOUT ME
       </h1>
       <p

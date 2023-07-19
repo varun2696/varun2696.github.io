@@ -27,6 +27,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              className="nav-link home"
             >
               {"Home"}
             </Link>
@@ -40,12 +41,13 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              className="nav-link about"
             >
               {"About"}
             </Link>
           </li>
 
-          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+          <li className="nav-link skills text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
             <Link
               activeClass="active"
               to={"skills"}
@@ -58,7 +60,7 @@ const Navbar = () => {
             </Link>
           </li>
 
-          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+          <li className="nav-link projects text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
             <Link
               activeClass="active"
               to={"projects"}
@@ -71,7 +73,7 @@ const Navbar = () => {
             </Link>
           </li>
 
-          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+          <li className="nav-link contact text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
             <Link
               activeClass="active"
               to={"contact"}
@@ -84,7 +86,7 @@ const Navbar = () => {
             </Link>
           </li>
 
-          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+          <li className="nav-link resume text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
             <Link
               activeClass="active"
               to={"resume"}
