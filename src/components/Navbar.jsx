@@ -19,23 +19,83 @@ const Navbar = () => {
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
-          {navLinks.map(({ _id, title, link }) => (
-            <li
-              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
-              key={_id}
+          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+            <Link
+              activeClass="active"
+              to={"home"}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
             >
-              <Link
-                activeClass="active"
-                to={link}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                {title}
-              </Link>
-            </li>
-          ))}
+              {"Home"}
+            </Link>
+          </li>
+
+          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+            <Link
+              activeClass="active"
+              to={"about"}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {"About"}
+            </Link>
+          </li>
+
+          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+            <Link
+              activeClass="active"
+              to={"skills"}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {"Skills"}
+            </Link>
+          </li>
+
+          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+            <Link
+              activeClass="active"
+              to={"projects"}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {"Projects"}
+            </Link>
+          </li>
+
+          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+            <Link
+              activeClass="active"
+              to={"contact"}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {"Contact"}
+            </Link>
+          </li>
+
+          <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+            <Link
+              activeClass="active"
+              to={"resume"}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {"Resume"}
+            </Link>
+          </li>
         </ul>
 
         <span
@@ -98,3 +158,21 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// {navLinks.map(({ _id, title, link }) => (
+//   <li
+//     className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+//     key={_id}
+//   >
+//     <Link
+//       activeClass="active"
+//       to={link}
+//       spy={true}
+//       smooth={true}
+//       offset={-70}
+//       duration={500}
+//     >
+//       {title}
+//     </Link>
+//   </li>
+// ))}
