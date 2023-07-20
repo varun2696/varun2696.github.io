@@ -15,7 +15,7 @@ const Navbar = () => {
     >
       <div>
         {/* <img src={logo} alt="logo" /> */}
-        <h1>Portfolio</h1>
+        <h1 className="text-2xl font-bold text-white">VKR</h1>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">

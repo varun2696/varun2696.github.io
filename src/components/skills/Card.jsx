@@ -16,38 +16,38 @@ import {
 const Card = ({ title, des, icon }) => {
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-8 gap-6 xl:gap-10">
-      <div className="skillIcons">
-        <SiJavascript size="50px" />
+      <div className="skills-card-img skillIcons">
+        <SiJavascript className="skills-card-name" size="50px" />
       </div>
-      <div className="skillIcons">
-        <FaReact size="50px" />
+      <div className="skillIcons skills-card-img">
+        <FaReact className="skills-card-name" size="50px" />
       </div>
-      <div className="skillIcons">
-        <SiRedux size="50px" />
+      <div className="skillIcons skills-card-img">
+        <SiRedux className="skills-card-name" size="50px" />
       </div>
-      <div className="skillIcons">
-        <SiTypescript size="50px" />
+      <div className="skillIcons skills-card-img">
+        <SiTypescript className="skills-card-name" size="50px" />
       </div>
-      <div className="skillIcons">
-        <SiNodedotjs size="50px" />
+      <div className="skillIcons skills-card-img">
+        <SiNodedotjs className="skills-card-name" size="50px" />
       </div>
-      <div className="skillIcons">
-        <SiMongodb size="50px" />
+      <div className="skillIcons skills-card-img">
+        <SiMongodb className="skills-card-name" size="50px" />
       </div>
-      <div className="skillIcons">
-        <SiHtml5 size="50px" />
+      <div className="skillIcons skills-card-img">
+        <SiHtml5 className="skills-card-name" size="50px" />
       </div>
-      <div className="skillIcons">
+      <div className="skillIcons skills-card-img">
         <SiCss3 size={"50px"} />
       </div>
-      <div className="skillIcons">
-        <SiChakraui size="50px" />
+      <div className="skillIcons skills-card-img">
+        <SiChakraui className="skills-card-name" size="50px" />
       </div>
-      <div className="skillIcons">
-        <SiTailwindcss size="50px" />
+      <div className="skillIcons skills-card-img">
+        <SiTailwindcss className="skills-card-name"  size="50px" />
       </div>
-      <div className="skillIcons">
-        <SiGithub size="50px" />
+      <div className="skillIcons skills-card-img">
+        <SiGithub className="skills-card-name" size="50px" />
       </div>
     </div>
   );
