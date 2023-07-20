@@ -1,5 +1,3 @@
-// import React, { useState } from "react";
-import Title from "../layouts/Title";
 import { SiGithub, SiGmail } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
@@ -7,10 +5,9 @@ import { BiPhoneCall } from "react-icons/bi";
 const Contact = () => {
   return (
     <div id="contact" className="w-full py-20 border-b-[1px] border-b-black">
-      <div className="flex justify-center items-center text-center">
-        <Title title="CONTACT" des="Contact With Me" />
-      </div>
-
+      <h1 className="flex justify-center items-center text-center p-[5%] text-4xl md:text-5xl text-gray-300 font-bold capitalize">
+        Contact Me
+      </h1>
       <div className="text-center grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4">
         <div>
           <span className="bannerIcon">
