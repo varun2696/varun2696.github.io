@@ -88,11 +88,15 @@ const Navbar = () => {
           <li className="nav-link resume text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
             <Link
               activeClass="active"
-              to={"resume"}
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              // to={"/Varun_KR_Resume.pdf"}
+              // download={'Varun_KR_Resume.pdf'}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1kZ12BmKJCJWiRh3YbND2zncih26N4j9h/view"
+                );
+              }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {"Resume"}
             </Link>
@@ -133,6 +137,19 @@ const Navbar = () => {
                     </Link>
                   </li>
                 ))}
+                <li className="nav-link resume text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+                  <Link
+                    activeClass="active"
+                    onClick={() => {
+                      window.open(
+                        "https://drive.google.com/file/d/1kZ12BmKJCJWiRh3YbND2zncih26N4j9h/view"
+                      );
+                    }}
+                    target="_blank"
+                  >
+                    {"Resume"}
+                  </Link>
+                </li>
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
@@ -159,21 +176,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// {navLinks.map(({ _id, title, link }) => (
-//   <li
-//     className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
-//     key={_id}
-//   >
-//     <Link
-//       activeClass="active"
-//       to={link}
-//       spy={true}
-//       smooth={true}
-//       offset={-70}
-//       duration={500}
-//     >
-//       {title}
-//     </Link>
-//   </li>
-// ))}

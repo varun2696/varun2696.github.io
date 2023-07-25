@@ -1,5 +1,5 @@
 import React from "react";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectThree, projectTwo, } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -13,27 +13,32 @@ const Projects = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="PharmEasy clone"
-          des="Clone of an E-commerce website PharmEasy, an online pharmacy and healthcare platform based in India."
+          title="Sephora"
+          des="An e-commerce website where users can buy beauty
+          based products like skin care, fragrance, hair care,
+          etc."
           src={projectOne}
-          github={"https://github.com/AditiSharma00/decorous-pan-7664"}
-          deployedLink={"https://pharmeasy-tan.vercel.app/"}
+          github={"https://github.com/varun2696/faithful-night-9583"}
+          deployedLink={"https://timely-wisp-f8d982.netlify.app/"}
+          teckStack={'CSS | HTML | JavaScript'}
         />
 
         <ProjectsCard
-          title="PharmEasy clone"
+          title="PharmEasy"
           des="Clone of an E-commerce website PharmEasy, an online pharmacy and healthcare platform based in India."
-          src={projectOne}
+          src={projectTwo}
           github={"https://github.com/AditiSharma00/decorous-pan-7664"}
           deployedLink={"https://pharmeasy-tan.vercel.app/"}
+          teckStack={"Javascript | CSS | HTML | React | Redx | Ckakra Ui"}
         />
 
         <ProjectsCard
-          title="PharmEasy clone"
-          des="Clone of an E-commerce website PharmEasy, an online pharmacy and healthcare platform based in India."
-          src={projectOne}
-          github={"https://github.com/AditiSharma00/decorous-pan-7664"}
-          deployedLink={"https://pharmeasy-tan.vercel.app/"}
+          title="Apple.com"
+          des="Clone of an Apple.com, an online platform for the multinational technology company."
+          src={projectThree}
+          github={"https://github.com/Sagarbisht07/Perpetual-fact-6008"}
+          deployedLink={"https://matrix-opal.vercel.app/"}
+          teckStack={'Javascript | React | Ckakra Ui | Node | Express | MongoDb'}
         />
       </div>
     </section>
