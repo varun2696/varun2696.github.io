@@ -37,7 +37,7 @@ const Contact = () => {
 
         <div>
           <span className="bannerIcon">
-          <SiGmail />
+            <SiGmail />
           </span>
           <p id="contact-email">varunkr1996@gmail.com</p>
         </div>
