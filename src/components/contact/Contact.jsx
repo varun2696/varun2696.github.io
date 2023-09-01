@@ -37,12 +37,7 @@ const Contact = () => {
 
         <div>
           <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/varun-kr-875b37199/"
-              target="_blank"
-            >
-              <SiGmail />
-            </a>
+          <SiGmail />
           </span>
           <p id="contact-email">varunkr1996@gmail.com</p>
         </div>
