@@ -6,6 +6,7 @@ import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/Navbar";
 import Projects from "./components/projects/Projects";
 import { About } from "./components/about/About";
+import GithubStats from "./components/GithubStats";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <GithubStats/>
         <Contact />
         <FooterBottom />
       </div>
