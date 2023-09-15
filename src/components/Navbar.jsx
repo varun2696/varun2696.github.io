@@ -86,20 +86,21 @@ const Navbar = () => {
           </li>
 
           <li className="nav-link resume text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
-            <Link
-              activeClass="active"
-              // to={"/Varun_KR_Resume.pdf"}
-              // download={'Varun_KR_Resume.pdf'}
+            <a
+              href="/Varun-KR-Resume.pdf"
+              download="Varun-KR-Resume.pdf"
+              id="resume-link-1"
+              className="nav-link resume"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1kZ12BmKJCJWiRh3YbND2zncih26N4j9h/view"
+                  "https://drive.google.com/file/d/1kZ12BmKJCJWiRh3YbND2zncih26N4j9h/view?usp=sharing"
                 );
               }}
               target="_blank"
               rel="noopener noreferrer"
             >
-              {"Resume"}
-            </Link>
+              Resume
+            </a>
           </li>
         </ul>
 
