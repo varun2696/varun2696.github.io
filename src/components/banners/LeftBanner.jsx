@@ -59,20 +59,22 @@ const LeftBanner = () => {
             <div>
               <FaDownload />
             </div>
-            <a
-              href="/Varun-KR-Resume.pdf"
-              download="Varun-KR-Resume.pdf"
-              id="resume-link-2"
-              onClick={() => {
-                window.open(
-                  "https://drive.google.com/file/d/1kZ12BmKJCJWiRh3YbND2zncih26N4j9h/view?usp=sharing"
-                );
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
+            <button id="resume-button-2"> 
+              <a
+                href="/Varun-KR-Resume.pdf"
+                download="Varun-KR-Resume.pdf"
+                id="resume-link-2"
+                onClick={() => {
+                  window.open(
+                    "https://drive.google.com/file/d/1kZ12BmKJCJWiRh3YbND2zncih26N4j9h/view?usp=sharing"
+                  );
+                }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </button>
           </div>
         </div>
       </div>
