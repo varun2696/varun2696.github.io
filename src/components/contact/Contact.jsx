@@ -1,6 +1,5 @@
 import { SiGithub, SiGmail } from "react-icons/si";
-import { FaLinkedinIn } from "react-icons/fa";
-import { BiPhoneCall } from "react-icons/bi";
+import { FaLinkedinIn, FaPhoneVolume } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -8,7 +7,7 @@ const Contact = () => {
       <h1 className="flex justify-center items-center text-center p-[5%] text-4xl md:text-5xl text-gray-300 font-bold capitalize">
         Contact Me
       </h1>
-      <div className="text-center grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4">
+      <div className="text-center grid grid-cols-2 gap-5 md:grid-cols-2 xl:grid-cols-4">
         <div>
           <span className="bannerIcon">
             <a
@@ -44,7 +43,7 @@ const Contact = () => {
 
         <div>
           <span className="bannerIcon">
-            <BiPhoneCall />
+            <FaPhoneVolume />
           </span>
           <p id="contact-phone">+91 7259369805</p>
         </div>
@@ -54,6 +53,8 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
 
 // const Contact = () =>
 // {
