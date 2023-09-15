@@ -2,6 +2,7 @@ import GitHubCalendar from 'react-github-calendar';
 
 
 const GithubStats = () => {
+    
     return (
         <div className="w-full py-10 border-b-[1px] border-b-black">
             <h1 className="flex justify-center items-center text-center p-[5%] text-4xl md:text-5xl text-gray-300 font-bold capitalize">
@@ -30,7 +31,6 @@ const GithubStats = () => {
                         Github Stats
                     </p>
                     <img
-
                         id="github-stats-card"
                         src="https://github-readme-stats.vercel.app/api?username=varun2696&show_icons=true&theme=panda"
                         alt="git stats"
