@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <div
       id="about"
-      className="about section w-[80%] m-auto justify-center items-center"
+      className="about section w-[80%] m-auto  py-5 justify-center items-center"
     >
       <h1 className="flex justify-center items-center text-center p-[5%] text-4xl md:text-5xl text-gray-300 font-bold capitalize">
         About Me

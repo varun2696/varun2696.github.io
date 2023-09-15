@@ -24,7 +24,7 @@ import {
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full py-20 border-b-[1px] border-b-black">
+    <div id="skills" className="w-full py-16 border-b-[1px] border-b-black">
       <h1 className="flex justify-center items-center text-center p-[5%] text-4xl md:text-5xl text-gray-300 font-bold capitalize">
         Skills
       </h1>
