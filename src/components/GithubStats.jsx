@@ -14,8 +14,12 @@ const GithubStats = () => {
                 <div className='w-full flex items-center justify-center'>
                     <GitHubCalendar
                         username="varun2696"
-                        blockSize={20}  // Increase this value to make the blocks larger
+                        blockSize={18}  // Increase this value to make the blocks larger
                         blockMargin={2} // Increase this value to increase the space between blocks
+                        style={{
+                            width: '100%', // Make the calendar container responsive
+                            height: 'auto', // Let the height adjust based on content
+                        }}
                     />
                 </div>
             </div>
