@@ -14,6 +14,8 @@ const GithubStats = () => {
                 <div className='w-full flex items-center justify-center'>
                     <GitHubCalendar
                         username="varun2696"
+                        blockSize={20}  // Increase this value to make the blocks larger
+                        blockMargin={2} // Increase this value to increase the space between blocks
                     />
                 </div>
             </div>
@@ -30,7 +32,7 @@ const GithubStats = () => {
                         alt="git stats"
                     />
                 </div>
-                <div  className='grid items-center justify-center text-center'>
+                <div className='grid items-center justify-center text-center'>
                     <p className="text-center pb-5 text-2xl md:text-2xl font-bold">
                         Github Streak
                     </p>
@@ -49,7 +51,7 @@ const GithubStats = () => {
                 <div className='flex items-center justify-center'>
                     <img
                         id="github-top-langs"
-                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut&theme=panda"
+                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=varun2696&layout=donut&theme=panda"
                         alt="Languages"
                     />
                 </div>
