@@ -17,7 +17,7 @@ const Projects = () => {
           title="PharmEasy"
           des="Clone of an E-commerce website PharmEasy, an online pharmacy and healthcare platform based in India."
           src={projectTwo}
-          github={"https://github.com/AditiSharma00/decorous-pan-7664"}
+          github={"https://github.com/varun2696/decorous-pan-7664"}
           deployedLink={"https://pharmeasy-tan.vercel.app/"}
           teckStack={"Javascript | CSS | HTML | React | Redx | Ckakra Ui"}
         />
@@ -37,7 +37,7 @@ const Projects = () => {
           title="Apple.com"
           des="Clone of an Apple.com, an online platform for the multinational technology company."
           src={projectThree}
-          github={"https://github.com/Sagarbisht07/Perpetual-fact-6008"}
+          github={"https://github.com/varun2696/Perpetual-fact-6008"}
           deployedLink={"https://matrix-opal.vercel.app/"}
           teckStack={'Javascript | React | Ckakra Ui | Node | Express | MongoDb'}
         />
