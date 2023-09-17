@@ -47,7 +47,7 @@ const Projects = () => {
           des="This is a simple YouTube clone built with React.js and styled using Tailwind CSS. It allows users to browse and watch YouTube videos."
           src={projectFour}
           github={"https://github.com/varun2696/youtube-clone"}
-          deployedLink={"https://vkr-yt-react-app.netlify.app/"}
+          deployedLink={"https://vkr-youtube-clone.vercel.app/"}
           teckStack={'Javascript | React | TailwindCss'}
         />
 
