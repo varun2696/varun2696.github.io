@@ -27,7 +27,7 @@ const Projects = () => {
           des="A clone of an e-commerce website where users can purchase beauty-based products such as skincare, fragrances, hair care, etc."
           src={projectOne}
           github={"https://github.com/varun2696/Sephora-clone"}
-          deployedLink={"https://c4ra-clone-js.netlify.app/"}
+          deployedLink={"https://sephora-clone-c4ra.netlify.app/"}
           teckStack={'CSS | HTML | JavaScript'}
         />
 
