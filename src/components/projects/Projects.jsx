@@ -15,29 +15,27 @@ const Projects = () => {
 
         <ProjectsCard
           title="PharmEasy"
-          des="Clone of an E-commerce website PharmEasy, an online pharmacy and healthcare platform based in India."
+          des="A clone of PharmEasy, an online pharmacy and healthcare platform based in India."
           src={projectTwo}
-          github={"https://github.com/varun2696/decorous-pan-7664"}
+          github={"https://github.com/varun2696/Pharmeasy-clone"}
           deployedLink={"https://pharmeasy-tan.vercel.app/"}
           teckStack={"Javascript | CSS | HTML | React | Redx | Ckakra Ui"}
         />
 
         <ProjectsCard
           title="Sephora"
-          des="An e-commerce website where users can buy beauty
-          based products like skin care, fragrance, hair care,
-          etc."
+          des="A clone of an e-commerce website where users can purchase beauty-based products such as skincare, fragrances, hair care, etc."
           src={projectOne}
-          github={"https://github.com/varun2696/faithful-night-9583"}
-          deployedLink={"https://timely-wisp-f8d982.netlify.app/"}
+          github={"https://github.com/varun2696/Sephora-clone"}
+          deployedLink={"https://c4ra-clone-js.netlify.app/"}
           teckStack={'CSS | HTML | JavaScript'}
         />
 
         <ProjectsCard
           title="Apple.com"
-          des="Clone of an Apple.com, an online platform for the multinational technology company."
+          des="A clone of the Apple.com website where users can find Apple iPhones, iPads, and Macs."
           src={projectThree}
-          github={"https://github.com/varun2696/Perpetual-fact-6008"}
+          github={"https://github.com/varun2696/Apple.com-clone"}
           deployedLink={"https://matrix-opal.vercel.app/"}
           teckStack={'Javascript | React | Ckakra Ui | Node | Express | MongoDb'}
         />

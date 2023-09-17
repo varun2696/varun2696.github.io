@@ -105,6 +105,8 @@ const Navbar = () => {
           </li>
         </ul>
 
+
+    {/* for mobile view */}
         <span
           onClick={() => setShowMenu(!showMenu)}
           className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
@@ -115,7 +117,7 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-[25%]" src={bannerImg} alt="logo" />
+                <img className="w-[25%] rounded-full" src={"https://avatars.githubusercontent.com/u/110106484?v=4"} alt="profile" />
                 <p className="text-sm text-gray-400 mt-2">
                   Full Stack Developer
                 </p>
