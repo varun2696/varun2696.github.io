@@ -20,6 +20,7 @@ const Projects = () => {
           github={"https://github.com/varun2696/Pharmeasy-clone"}
           deployedLink={"https://pharmeasy-tan.vercel.app/"}
           teckStack={"Javascript | CSS | HTML | React | Redx | Ckakra Ui"}
+          group={"collaborative"}
         />
 
         <ProjectsCard
@@ -29,6 +30,7 @@ const Projects = () => {
           github={"https://github.com/varun2696/Sephora-clone"}
           deployedLink={"https://sephora-clone-c4ra.netlify.app/"}
           teckStack={'CSS | HTML | JavaScript'}
+          group={"collaborative"}
         />
 
         <ProjectsCard
@@ -38,6 +40,7 @@ const Projects = () => {
           github={"https://github.com/varun2696/Apple.com-clone"}
           deployedLink={"https://matrix-opal.vercel.app/"}
           teckStack={'Javascript | React | Ckakra Ui | Node | Express | MongoDb'}
+          group={"collaborative"}
         />
 
         <ProjectsCard
@@ -47,6 +50,7 @@ const Projects = () => {
           github={"https://github.com/varun2696/youtube-clone"}
           deployedLink={"https://vkr-youtube-clone.vercel.app/"}
           teckStack={'Javascript | React | TailwindCss'}
+          group={"solo"}
         />
 
       </div>
