@@ -106,7 +106,7 @@ const Navbar = () => {
         </ul>
 
 
-    {/* for mobile view */}
+        {/* for mobile view */}
         <span
           onClick={() => setShowMenu(!showMenu)}
           className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
