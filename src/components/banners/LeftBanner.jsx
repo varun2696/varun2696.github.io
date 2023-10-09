@@ -39,7 +39,7 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <a href="https://www.linkedin.com/in/varun-kr-875b37199/" target='_blank'>
+              <a href="https://www.linkedin.com/in/varun-kr-fsd96/" target='_blank'>
                 <FaLinkedinIn />
               </a>
             </span>

@@ -25,7 +25,7 @@ const Contact = () => {
           <span className="bannerIcon">
             <a
               id="contact-linkedin"
-              href="https://www.linkedin.com/in/varun-kr-875b37199/"
+              href="https://www.linkedin.com/in/varun-kr-fsd96/"
               target="_blank"
             >
               <FaLinkedinIn />
