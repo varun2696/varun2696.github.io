@@ -1,5 +1,5 @@
 import React from "react";
-import { projectOne, projectThree, projectTwo, projectFour } from "../../assets/index";
+import { projectThree, projectTwo, projectFour, socialpanga } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -13,6 +13,16 @@ const Projects = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-16">
 
+      <ProjectsCard
+          title="SocialPanga"
+          des="This project is a clone of the SocialPanga website's homepage. The primary focus is on creating a visually appealing and responsive user interface."
+          src={socialpanga}
+          github={"https://github.com/varun2696/SocialPanga"}
+          deployedLink={"https://social-panga.vercel.app/"}
+          teckStack={'CSS | HTML | JavaScript'}
+          group={"solo"}
+        />
+
         <ProjectsCard
           title="PharmEasy"
           des="A clone of PharmEasy, an online pharmacy and healthcare platform based in India."
@@ -20,16 +30,6 @@ const Projects = () => {
           github={"https://github.com/varun2696/Pharmeasy-clone"}
           deployedLink={"https://pharmeasy-tan.vercel.app/"}
           teckStack={"Javascript | CSS | HTML | React | Redx | Ckakra Ui"}
-          group={"collaborative"}
-        />
-
-        <ProjectsCard
-          title="Sephora"
-          des="A clone of an e-commerce website where users can purchase beauty-based products such as skincare, fragrances, hair care, etc."
-          src={projectOne}
-          github={"https://github.com/varun2696/Sephora-clone"}
-          deployedLink={"https://sephora-clone-c4ra.netlify.app/"}
-          teckStack={'CSS | HTML | JavaScript'}
           group={"collaborative"}
         />
 
