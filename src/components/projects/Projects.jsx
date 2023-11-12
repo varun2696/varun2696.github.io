@@ -19,7 +19,7 @@ const Projects = () => {
           src={socialpanga}
           github={"https://github.com/varun2696/SocialPanga"}
           deployedLink={"https://social-panga.vercel.app/"}
-          teckStack={'CSS | HTML | JavaScript'}
+          teckStack={'CSS | HTML | Javascript'}
           group={"solo"}
         />
 
@@ -29,7 +29,7 @@ const Projects = () => {
           src={projectTwo}
           github={"https://github.com/varun2696/Pharmeasy-clone"}
           deployedLink={"https://pharmeasy-tan.vercel.app/"}
-          teckStack={"Javascript | CSS | HTML | React | Redx | Ckakra Ui"}
+          teckStack={"Javascript | CSS | HTML | React | Redux | Chakra UI"}
           group={"collaborative"}
         />
 
@@ -39,7 +39,7 @@ const Projects = () => {
           src={projectThree}
           github={"https://github.com/varun2696/Apple.com-clone"}
           deployedLink={"https://matrix-opal.vercel.app/"}
-          teckStack={'Javascript | React | Ckakra Ui | Node | Express | MongoDb'}
+          teckStack={'Javascript | React | Chakra UI | Node.Js | Express | MongoDb'}
           group={"collaborative"}
         />
 
