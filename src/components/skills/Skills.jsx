@@ -8,6 +8,7 @@ import {
   SiGithub,
   SiHtml5,
   SiJavascript,
+  SiMaterialdesignicons,
   SiMongodb,
   SiNetlify,
   SiNodedotjs,
@@ -40,6 +41,7 @@ const Skills = () => {
         <Card icon={<SiExpress size={"50px"} />} name={"Express"} />
         <Card icon={<SiChakraui size={"50px"} />} name={"Chakra-Ui"} />
         <Card icon={<SiTailwindcss size={"50px"} />} name={"Tailwind"} />
+        <Card icon={<SiMaterialdesignicons size={"50px"}/>} name={"MaterialUi"}/>
       </div>
 
       <h1 className="flex justify-center items-center text-center p-[5%] text-4xl md:text-5xl text-gray-300 font-bold capitalize">
