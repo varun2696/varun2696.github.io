@@ -88,8 +88,8 @@ const Navbar = () => {
           <li className="nav-link resume text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
             <button id="resume-button-1">
               <a
-                href="/Varun-KR-Resume.pdf"
-                download="Varun-KR-Resume.pdf"
+                // href="/Varun-KR-Resume.pdf"
+                // download="Varun-KR-Resume.pdf"
                 id="resume-link-1"
                 onClick={() => {
                   window.open(

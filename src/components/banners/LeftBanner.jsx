@@ -61,8 +61,8 @@ const LeftBanner = () => {
             </div>
             <button id="resume-button-2"> 
               <a
-                href="/Varun-KR-Resume.pdf"
-                download="Varun-KR-Resume.pdf"
+                // href="/Varun-KR-Resume.pdf"
+                // download="Varun-KR-Resume.pdf"
                 id="resume-link-2"
                 onClick={() => {
                   window.open(
